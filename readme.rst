@@ -2,7 +2,7 @@
 Project
 #######
 
-Assignment 1 for ACIT 4850 at BCIT, Winter 2016
+Assignment 2 for ACIT 4850 at BCIT, Winter 2016
 
 *************
 Group Members
