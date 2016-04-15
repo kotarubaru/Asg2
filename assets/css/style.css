@@ -1,0 +1,140 @@
+
+body {
+	background-color: #dddddd;
+	font-family: Arial, "Sans serif";
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#nav-left {
+	display: inline;
+	text-align: left;
+	float: left;
+	margin-left: 5%;
+}
+
+#nav-right {
+	display: inline;
+	text-align: right;
+	float: right;
+	margin-right: 5%;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 1.5em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.2em;
+	background-color: #555585;
+	/* Ensures the nav bar will be 'on top' */
+	z-index: 1000;
+}
+
+#navspace {
+	width: 100%;
+	height: 2.5em;
+}
+
+hr {
+	border: 0;
+	height: 3px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #91a3b0;
+	background-color: #91a3b0; /* IE expects background-color rather than color */
+}
+
+footer {
+	font-size: 0.75em;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tradeTable {
+	border-collapse: collapse;
+}
+
+.tradeTable tr:nth-child(odd) {
+	background-color: #91a3b0;
+}
+
+.tradeTable tr:nth-child(even) {
+	background-color: #bbbbbb;
+}
+
+.tradeTable td {
+	border: 0;
+}
+
+#collection td {
+	border: black solid 1px;
+	background-color: #91a3b0;
+}
+
+.leftPanel {
+	margin-top: -5px;
+	float: left;
+	background-color: #91a3b0;
+	width: 20%;
+	height: 500px;
+}
+
+#assemble tr:nth-child(odd) > td {
+	border: black solid 1px;
+	width: 100px;
+	height: 42px;
+	padding: 0;
+}
+
+#assemble tr:nth-child(even) {
+	height: 10px;
+}
+
+.assembleSlot {
+	height: 42px;
+}
+
+.assemblePiece {
+	text-align: center;
+	background-color: #91a3b0;
+}
+
+.assembledBot {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.assembledBot tr td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.assembledBot img {
+	display: block;
+}
+
+#players {
+	border: black solid 1px;
+}
+
